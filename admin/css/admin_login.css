@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #db90fb;
+}
+
+.log{
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    background-color: white;
+    
+}
+
+.log h1{
+    display: flex;
+    justify-content: center;  
+    padding-bottom: 15px;  
+}
+
+.log input {
+    width: 95%;
+    height: 50px;
+    margin-top: 25px;
+    padding-left: 15px;
+    font-size: 20px;
+    border-radius: 7px;
+ 
+}
+.ho:hover{
+    background-color: orange;
+}
+
+.ca{
+    margin-top: 30px;
+}
+

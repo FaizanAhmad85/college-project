@@ -1,0 +1,40 @@
+.b{
+    width: 300px;
+    height: 150px;
+    border: 1px solid #d5d9d9;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.b:hover{
+    background: #f7fafa;
+}
+
+.icon{
+    font-size: 65px;
+}
+
+.content h2{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.content p{
+    margin-top: 8px;
+    font-size: 16px;
+    color: #565959;
+    line-height: 1.4;
+}
+
+a{
+    text-decoration: none;
+    color: inherit; 
+}

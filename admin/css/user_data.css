@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #db90fb;
+}
+
+.user{
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgb(162, 232, 236);
+    
+}
+.user th{
+    padding: 10px;
+}
+.user tr td {
+    padding: 10px;
+}
+
+.user button{
+    padding: 5px;
+    cursor: pointer;
+    /* background-color: rgb(56, 236, 86); */
+}
+
+.des{
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.cre{
+    width: 80px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+        background-color: #e7cff1;
+
+}
+
+.cate{
+    display: flex;
+    height: 35px;
+    background-color: rgb(23, 21, 21);
+}
+
+.categ{
+    height: 32px;
+    border: 1.5px solid transparent;
+    color: white;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.categ:hover{
+    border: 1.5px solid white;
+}
+
+.hero-slider {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  height: 100px;
+  font-size: 50px;
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
+
+
+/* banner end  */
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+    gap:16px;
+    padding:20px;
+}
+
+.product-card{
+    background:#fff;
+    border:1px solid #e0e0e0;
+    border-radius:4px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.product-card:hover{
+    box-shadow:0 2px 12px rgba(0,0,0,.15);
+}
+
+.product-img{
+    height:300px;
+    width: 247px;
+    overflow:hidden;
+}
+
+.product-img img{
+    width: 100%;
+    height: 90%;
+    object-fit:cover;
+    object-position:top center;
+}
+
+.product-details{
+    padding:12px;
+    text-align:center;
+}
+
+.product-details h3{
+    font-size:14px;
+    color:#212121;
+    margin-bottom:8px;
+    font-weight:500;
+    
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+
+.price{
+    font-size:18px;
+    font-weight:600;
+    color:#212121;
+    margin-bottom:5px;
+}
+
+.offer{
+    color:#388e3c;
+    font-size:14px;
+    font-weight:500;
+}

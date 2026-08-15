@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #db90fb;
+
+}
+
+table{
+    background-color: aliceblue;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+table td{
+    padding: 10px;
+    
+}
+
+
+.btn{
+    height:40px;
+    width: 60px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.addr{
+    width: 250px;
+    flex-wrap: wrap;
+}
